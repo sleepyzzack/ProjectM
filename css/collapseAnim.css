@@ -1,0 +1,32 @@
+.collapse-state{
+    display: block;
+
+}
+.visible-on{
+    visibility: visible;
+
+}
+.visible-off{
+    visibility: hidden;
+}
+
+
+.flex-menu-column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.margen-RL{
+    margin-left: 50px;
+    margin-right: 15%;
+}
+
+.imagenes-perfil{
+    height: 33px;
+    width: 33px;
+    object-fit: contain;
+    object-position: center;
+
+
+}

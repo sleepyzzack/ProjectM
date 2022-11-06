@@ -1,0 +1,73 @@
+.accept-btn {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: right;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #018dc4;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgb(25,25,25);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+    margin-top: 37px;
+    margin-bottom: 50px;
+  }
+  
+  .accept-btn:active {
+    display: inline-block;
+    background: rgb(125,125,125);
+    -webkit-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform:  scaleX(1.3) scaleY(1.3)  ;
+    transform:  scaleX(1.3) scaleY(1.3)  ;
+  }
+
+
+  .ajustar{
+    width: 7em;
+    height: 7em;
+    object-fit: inherit;
+    transform: translate(0%,-27%);
+
+   
+  }
+
+  .divposparent{
+    margin: 0 auto;
+
+  }
+  .divposchild{
+    margin: 0 auto;
+
+  }
+
+  .texto{
+    
+    margin-bottom: 0;
+    margin-top: 5px;
+    display: contents;
+
+  }
+  
+  .resize{
+    width: auto;
+    height: 85px;
+    
+  }
+
+  .itemtext-increase{
+    display: inline-table;
+  }
